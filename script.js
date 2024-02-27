@@ -31,9 +31,14 @@ function segurar() {
     const suaMao = document.getElementById('suaMao');
     const seuOponente = document.getElementById('seuOponente');
 
+    // Entrega uma carta ao oponente
+    const cartaOponenteExtra = sacar();
+    seuOponente.textContent = parseInt(seuOponente.textContent) + cartaOponenteExtra;
+
     const suaFinal = parseInt(suaMao.textContent) || 0;
     const oponenteFinal = parseInt(seuOponente.textContent) || 0;
 
+    // Verifica o resultado após entregar uma carta ao oponente
     if (oponenteFinal > 21) {
         alert("Seu oponente ultrapassou 21. Você venceu!");
     } else if (oponenteFinal > suaFinal) {
@@ -42,8 +47,9 @@ function segurar() {
         alert("Você tem uma mão maior. Você venceu!");
     } else {
         alert("Empate! Ambos têm a mesma pontuação.");
-    }   
+    }
 }
+
 //Função para verificar se o jogador sabe as regras do jogo
 const confirmAction = () => {
     const response = confirm("Você conhece as regras desse jogo?");

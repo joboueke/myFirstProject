@@ -1,2 +1,2 @@
 # myFirstProject
-My first piece of work on Github!
+Meu primeiro projeto por conta própria!

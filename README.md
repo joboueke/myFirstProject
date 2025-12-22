@@ -17,8 +17,8 @@ O jogo simula a dinâmica básica do **Blackjack (21)**, onde o jogador deve som
 
 ## Tecnologias Utilizadas
 - **JavaScript**
-- **HTML** (se aplicável)
-- **CSS** (se aplicável)
+- **HTML**
+- **CSS**
 
 ---
 

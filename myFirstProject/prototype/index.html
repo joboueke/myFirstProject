@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto jogo 21</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Jogo de cartas 21</h1>
+    </header>
+
+    <script>
+        window.alert('Bem vindo ao jogo de cartas 21!');
+    </script>
+
+    <section>
+
+        <button onclick="confirmAction()">Ajuda</button>
+
+        <div>
+            <h2>Sua mão: <span id="suaMao"></span></h2>
+        </div>
+
+        <div>
+            <h2>Seu oponente: <span id="seuOponente"></span></h2>
+        </div>
+
+        <button onclick="receberCarta()">Sacar</button>
+        <button onclick="segurar()">Segurar</button>
+
+        <div id="res"></div>
+
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

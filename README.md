@@ -33,14 +33,14 @@ O objetivo é chegar o mais próximo possível de **21 pontos**, sem ultrapassar
 
 
 ## Estrutura do projeto
-
+```
 ├── index.html        # Versão final do jogo
 ├── script.js         # Lógica do Blackjack
 ├── style.css         # Estilos da mesa e cartas
 ├── myFirstProject/
 │   └── prototype/   # Primeira versão (protótipo)
 └── README.md
-
+```
 Protótipo vs Versão Final
 
 Este repositório contém duas versões do jogo:
@@ -63,7 +63,7 @@ Código mais organizado e reutilizável
 
 Melhor experiência visual e de jogo
 
-Tecnologias utilizadas
+- Tecnologias utilizadas
 
 HTML5
 
@@ -76,7 +76,7 @@ Git & GitHub
 GitHub Pages para deploy
 
 
-Objetivo do projeto
+- Objetivo do projeto
 
 Projeto desenvolvido com foco em:
 
